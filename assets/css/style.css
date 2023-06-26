@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: #e0dfda;
+    height: 730px;
+}
+.card {
+    width: 250px;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+.card .fa-heart {
+    position: absolute;
+    color: white;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.card .fa-file-lines {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #0dbf2b;
+
+}
+.card .fa-angle-left {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 1px 6px 3px 6px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: hidden;
+    color: #fff;
+    visibility: hidden;
+}
+.card .fa-angle-right {
+    position: absolute;
+    top: 95px;
+    right: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 1px 6px 3px 6px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: hidden;
+    color: #fff;
+    visibility: hidden;
+}
+.card img {
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+    height: 210px;
+}
+.card:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2) ;
+}
+.card:hover .fa-angle-left{ 
+    visibility: visible;
+}
+.card:hover .fa-angle-right {
+    visibility: visible;
+}
+.about {
+    padding: 32px 10px;
+    position: relative;
+}
+.about h3 {
+    position: absolute;
+    bottom: 75px;
+}
+.about p {
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;
+}
+.about p sup {
+font-size: 10px;
+}
+.about span {
+position: absolute;
+bottom: 15px;
+color: gray;
+font-size: 15px;
+}
+.card-2 {
+    width: 250px;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    left: 490px;
+    top: 150px;
+}
+.card-2 .fa-heart {
+    position: absolute;
+    color: white;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.card-2 .fa-file-lines {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #0dbf2b;
+
+}
+.card-2 .fa-angle-left {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 1px 6px 3px 6px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: hidden;
+    color: #fff;
+    visibility: hidden;
+}
+.card-2 .fa-angle-right {
+    position: absolute;
+    top: 95px;
+    right: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 1px 6px 3px 6px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: hidden;
+    color: #fff;
+    visibility: hidden;
+}
+.card-2 img {
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+    height: 210px;
+}
+.card-2:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2) ;
+}
+.card-2:hover .fa-angle-left{ 
+    visibility: visible;
+}
+.card-2:hover .fa-angle-right {
+    visibility: visible;
+}
+.about-2 {
+    padding: 32px 10px;
+    position: relative;
+}
+.about-2 h3 {
+    position: absolute;
+    bottom: 75px;
+}
+.about-2 p {
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;
+}
+.about-2 p sup {
+font-size: 10px;
+}
+.about-2 span {
+position: absolute;
+bottom: 15px;
+color: gray;
+font-size: 15px;
+}
+.card-3 {
+    width: 250px;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    left: 780px;
+    top: 150px;
+}
+.card-3 .fa-heart {
+    position: absolute;
+    color: white;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.card-3 .fa-file-lines {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #0dbf2b;
+
+}
+.card-3 .fa-angle-left {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 1px 6px 3px 6px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: hidden;
+    color: #fff;
+    visibility: hidden;
+}
+.card-3 .fa-angle-right {
+    position: absolute;
+    top: 95px;
+    right: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 1px 6px 3px 6px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: hidden;
+    color: #fff;
+    visibility: hidden;
+}
+.card-3 img {
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+    height: 210px;
+}
+.card-3:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2) ;
+}
+.card-3:hover .fa-angle-left{ 
+    visibility: visible;
+}
+.card-3:hover .fa-angle-right {
+    visibility: visible;
+}
+.about-3 {
+    padding: 32px 10px;
+    position: relative;
+}
+.about-3 h3 {
+    position: absolute;
+    bottom: 75px;
+}
+.about-3 p {
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;
+}
+.about-3 p sup {
+font-size: 10px;
+}
+.about-3 span {
+position: absolute;
+bottom: 15px;
+color: gray;
+font-size: 15px;
+}
+.card-4 {
+    width: 250px;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    left: 1070px;
+    top: 150px;
+}
+.card-4 .fa-heart {
+    position: absolute;
+    color: white;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.card-4 .fa-file-lines {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #0dbf2b;
+
+}
+.card-4 .fa-angle-left {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 1px 6px 3px 6px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: hidden;
+    color: #fff;
+    visibility: hidden;
+}
+.card-4 .fa-angle-right {
+    position: absolute;
+    top: 95px;
+    right: 5px;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 1px 6px 3px 6px;
+    background-color: rgba(0, 0, 0, 0.282);
+    border: hidden;
+    color: #fff;
+    visibility: hidden;
+}
+.card-4 img {
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+    height: 210px;
+}
+.card-4:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2) ;
+}
+.card-4:hover .fa-angle-left{ 
+    visibility: visible;
+}
+.card-4:hover .fa-angle-right {
+    visibility: visible;
+}
+.about-4 {
+    padding: 32px 10px;
+    position: relative;
+}
+.about-4 h3 {
+    position: absolute;
+    bottom: 75px;
+}
+.about-4 p {
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;
+}
+.about-4 p sup {
+font-size: 10px;
+}
+.about-4 span {
+position: absolute;
+bottom: 15px;
+color: gray;
+font-size: 15px;
+}
